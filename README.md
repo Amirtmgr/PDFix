@@ -19,7 +19,6 @@ This repository contains a Streamlit web application designed to summarize resea
 - **LangChain**: Employed for generating the summaries using a map-reduce approach with custom prompts.
 - **Python**: The primary programming language used for the backend logic.
 - **HTML/CSS**: Custom components and styling for enhanced UI/UX.
-- 
 
 ## How It Works
 
