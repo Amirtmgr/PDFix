@@ -1,0 +1,95 @@
+:root {
+    --primary: #1e90ff;
+    --accent: #66C2FF;
+    --secondar:  #50E3C2;
+    --text_color: #000000;
+    --text_color_dark: #000000;
+    --text_color_light: #ffffff;
+    --card_background: #ffffff;
+    --footer_background_glassy: rgba(255, 255, 255, 0.3);
+    --apple_blue: #007AFF;
+    --background_gradient: linear-gradient(to right, var(--primary), var(--secondar));
+  }
+  
+
+.stApp {
+    background: var(--primary);
+    color: var(--text_color_light);
+}
+
+p{
+    color: var(--text_color_light);
+}
+
+
+
+.card {
+    background-color: var(--card_background);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer {
+    left: 0;
+    background-color: var(--card_background);
+    color: var(--text_color);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.title {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.subtitle {
+   color: var(--text_color_light);
+}
+.upload {
+    margin-bottom: 30px;
+}
+
+
+.custom-footer {
+    background: var(--footer_background_glassy);
+    color: var(--text_color_dark);
+    text-align: center;
+    padding: 15px 10px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.custom-footer a {
+    color: var(--apple_blue);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.custom-footer p {
+    margin: 0;
+}
+
+
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+
+  .menu_item {
+    list-style: none;
+  }
+  

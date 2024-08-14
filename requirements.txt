@@ -1,0 +1,6 @@
+langchain
+langchain-community
+langchain_openai
+streamlit
+tiktoken
+python-dotenv
